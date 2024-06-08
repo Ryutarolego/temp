@@ -1,0 +1,16 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+train: datasets/soldering/train/images
+val: datasets/soldering/valid/images
+test: datasets/soldering/test/images
+
+nc: 2
+names: ['soldering_iron', 'solder']
+
+# roboflow:
+#   workspace: tatsuya-fukuoka-obbki
+#   project: detect-test-6vpfo
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/tatsuya-fukuoka-obbki/detect-test-6vpfo/dataset/1
